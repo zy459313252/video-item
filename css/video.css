@@ -89,8 +89,9 @@ body{
 	width:0px;
 	height:10px;
 	background-image: repeating-linear-gradient(45deg,#d8534e 0,#e06d68 20px);
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
+	/* border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px; */
+	border-radius: 5px;
 }
 .remain_time{
 	width:50px;
