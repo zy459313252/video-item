@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/video.css">	
+	</head>
+	<body>
+		<p class="videoName">tara - 懂的那份感觉</p>
+		<div class="listTab" onclick="dealShow()">播放列表</div>
+		<video id="player" src="video/tara.mp4"></video>
+		<div class="playTab" onclick="dealPlayTab()"></div>
+		<div class="tool">
+			<img src="img/pause.png" class="play" onclick="dealPlay()"/>
+			<div class="play_time">0:00:00</div>
+			<div class="progress_full">
+				<div class="play_progress"></div>
+			</div>
+			<div class="remain_time">0:03:24</div>
+			<div class="volume" onclick="showVolume()"></div>
+			<div class="volume_progress">
+				<div class="volume_full">
+					<div class="volume_play"></div>
+				</div>
+				<div class="trangle"></div>
+			</div>
+			<div class="full" onclick="dealFull()"></div>
+		</div>
+		<div class="playList">
+			<div class="coin"></div>
+			<div class="listTitle">播放列表</div>
+			<ul class="listVideo">
+				<li><p>tara-懂的那份感觉 </p><span>03:24</span></li>
+				<li><p>陈奕迅-稳稳的幸福</p><span>03:50</span></li>
+				<li><p>张靓颖-我的梦</p><span>04:04</span></li>
+				<li><p>薛之谦-你还要我怎样</p><span>05:08</span></li>
+				<li><p>刘明湘-漂洋过海来看你</p><span>02:12</span></li>
+				<li><p>汪峰-北京北京</p><span>06:16</span></li>
+			</ul>
+			<div class="listbottom">
+				<span class="prev" onclick="dealPre()">上一部</span>
+				<span class="next" onclick="dealNext()">下一部</span>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/video.js"></script>
+	</body>
+</html>
